@@ -1,0 +1,206 @@
+/* common */
+html{
+    font-size: 10px;
+}
+body{
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+    width: 100%;
+}
+.tittle{
+    font-size:4rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 3rem 0;
+}
+.find{
+    border: black .1rem solid;
+    width: 80%;
+    height: 25rem;
+    margin: 0 auto 3rem auto;
+    padding:4rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.input-tittle{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    width: 20rem;
+}
+.half{
+    width: 10rem;
+}
+.input{
+    width: 25rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    appearance: none;
+    outline: none;
+    line-height: 3rem;
+}
+.input-name{
+    margin-right: 3rem;
+}
+.input-gender label {
+	padding: 0 0 0 4rem;	/* ラベルの位置 */
+	font-size: 1.6rem;
+	line-height: 3rem;		/* ボタンのサイズに合わせる */
+	display: inline-block;
+	cursor:	pointer;
+	position: relative;
+}
+.input-gender label:before {
+	content: '';
+	width: 3rem;		/* ボタンの横幅 */
+	height: 3rem;		/* ボタンの縦幅 */
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	border-radius: 50%;
+    border: #ccc .1rem solid;
+}
+.input-gender input[type="radio"] {
+	display: none;
+}
+.input-gender input[type="radio"]:checked + label:after {
+	content: '';
+	width: 1rem;		/* マークの横幅 */
+	height: 1rem;		/* マークの縦幅 */
+	position: absolute;
+	top: 1.1rem;
+	left: 1.1rem;
+	background-color: black;
+	border-radius: 50%;
+}
+.input-date{
+    margin-bottom: 1rem;
+}
+.input-email{
+    margin-bottom: 3rem;
+}
+.button{
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    padding: .8rem 5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+    margin-bottom: 1.5rem;
+    }
+.button:hover{
+    color: black;
+    background-color: white;
+}
+.link{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+.link:hover{
+    color: silver;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.content{
+    width: 85%;
+    margin: 0 auto 3rem auto;
+}
+svg.w-5.h-5 {  /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 1.5rem;
+    height: 1.5rem;
+}
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 2rem;
+}
+th{
+    padding: 0 1rem 1rem 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    border-bottom: black .1rem solid;
+}
+tr{
+    width: 100%;
+}
+td{
+    padding: 0 1rem 0 1rem;
+    font-size: 1.2rem;
+}
+.id{
+    width: 5%;
+}
+.name{
+    width: 10%;
+}
+.gender{
+    width: 10%;
+}
+.email{
+    width: 20%;
+}
+.opinion{
+    width: 40%;
+}
+
+.button-delete{
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    padding: .2rem 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+    margin-bottom: 1.5rem;
+    }
+.button-delete:hover{
+    color: black;
+    background-color: white;
+}
+.css-fukidashi {
+    padding: 0;
+    margin: 0;
+}
+.fukidashi {
+    width: 100%;
+    display: none;
+    overflow-wrap: break-word;
+}
+.text:hover{
+    display: none;
+}
+.text:hover + .fukidashi {
+    display: block;
+}
+
